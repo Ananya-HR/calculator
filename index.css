@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+button{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin-left: 0.2rem;
+    width:5rem;
+    transition: all 0.2s;
+
+}
+.output{
+    background-color: rgb(211, 199, 199);
+    height: 5rem;
+    margin-bottom: 0.5rem;
+    text-align:right;
+    font-size: 2.1rem;
+}
+#display{
+    padding:1rem;
+}
+button:active{
+    transform: scale(0.8);
+}
